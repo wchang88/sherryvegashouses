@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Las Vegas & Henderson realtor">
+	<meta name="keywords" content="real estate, Las Vegas, LV realtor, LV,
+									lv, home, house, las vegas realtor">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Sherry Hsiao | Real Estate Agent</title>
+	
+	<script src="responsive_navbar.js"></script>
+	<script>
+		!function(d,s,id){
+			var js,fjs=d.getElementsByTagName(s)[0];
+			if(!d.getElementById(id)){
+				js=d.createElement(s);
+				js.id=id;
+				js.src='https://weatherwidget.io/js/widget.min.js';
+				fjs.parentNode.insertBefore(js,fjs);
+			}
+		}
+		(document,'script','weatherwidget-io-js');
+	</script>
+	<link rel="preload" as="image" href="lv_strip.png">
+	<link rel="stylesheet" 
+		href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" >
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	
+	<!--Large screens, default -->
+	<link rel="stylesheet" media="screen" href="screen.css">
+	<!--Medium screens, 600-992px screen sizes -->
+	<link rel="stylesheet" media="screen and (max-width: 992px)" href="tablet.css">
+	<!--Small screens, up to 600px screen sizes -->
+	<link rel="stylesheet" media="screen and (max-width: 600px)" href="mobile.css">
+</head>
+<body>
+	<nav id="nav">
+		<div id="nav_top">
+			<button id="open_nav"><i class="material-icons">view_headline</i></button>
+			<img src="logo.png">
+			<button id="close_btn"><i class="material-icons">clear</i></button>
+		</div>
+		<ul id="navbar">
+			<li><a class="nav_elem" href="#">Welcome</a></li>
+			<li><a class="nav_elem" href="#search">Home Search</a></li>
+			<li><a class="nav_elem" href="#links">Useful Links</a></li>
+			<li><a class="nav_elem" href="#contact">Contact Agent</a></li>
+		</ul>
+	</nav>
+	
+	<section id="welcome">
+		<img id="lv_bkgd" src="lv_strip.png">
+		<div class="flex_container">
+			<span class="line"></span>
+			<span class="text">Welcome to fabulous Las Vegas</span>
+			<span class="line"></span>
+		</div>
+	</section>
+	
+	<section id="intro">
+		<blockquote cite="http://www.city-data.com/us-cities/The-West/Las-Vegas-Introduction.html">
+			<div><span id="dbqt">&#8223;</span></div>
+			<div id="quote">
+				Las Vegas is unique among U.S. cities. Famous for luxury casinos 
+				and show palaces offering non-stop recreation on the "Strip" and
+				in downtown Casino Center, the city has over the years become 
+				synonymous with glitter and glamour. Las Vegas since the late 
+				1980s has acquired another identity as a center for business, 
+				finance, transportation, and services; still the "Entertainment 
+				Capital of the World," it has actively and successfully 
+				cultivated a diversified economy. The Las Vegas resident can 
+				enjoy legalized gaming, yet more often will take advantage of 
+				the diverse range of cultural and recreational opportunities 
+				offered in the city and in the surrounding area.
+				<br />
+				&emsp;&emsp;- City-Data.com, 
+				<a href="http://www.city-data.com/us-cities/The-West/Las-Vegas-Introduction.html"
+					target="_blank" style="color: #B8B8B8;">
+						Las Vegas: Introduction
+				</a>
+			</div>
+		</blockquote>
+		
+		<a class="weatherwidget-io" 
+			href="https://forecast7.com/en/36d17n115d14/las-vegas/?unit=us" 
+			data-label_1="LAS VEGAS" data-label_2="WEATHER" data-font="Jura" 
+			data-icons="Climacons Animated" data-theme="mountains"
+			target="_blank">
+				LAS VEGAS WEATHER
+		</a>
+		
+		<div id="quick_stats">
+			<div><i class="material-icons">people</i><br>2,227,053</div>
+			<div><i class="material-icons">flight_takeoff</i><br>McCarran International Airport (LAS)</div>
+			<div><i class="material-icons">terrain</i><br>600 sq mi (1,600 km<sup>2</sup>)</div>
+			<div><i class="material-icons">public</i><br>Clark County, Nevada, USA</div>
+			<div><i class="material-icons">location_city</i><br>The Entertainment Capital of the World</div>
+		</div>
+	</section>
+	
+	<section id="search">
+		<iframe src="https://las.mlsmatrix.com/Matrix/public/IDX.aspx?idx=b0576bb" 
+			width="100%" height="91%" frameborder="0" marginwidth="0" 
+			marginheight="0"></iframe>
+	</section>
+	
+	<section id="links">
+		<div style="width: 700px;">
+			<div>
+				<p>Need help with mortgage?<br />
+					<span>Check out 
+					<a class="link" href="http://www.bankrate.com" target="_blank">this page</a> 
+					<sup><a class="disclaimer" href="#external_link_liability">[1]</a></sup>
+					by Bankrate</span></p>
+			</div>
+			<div>
+				<p>Unsure about your home warranty options?<br />
+					<span>Here are some recommended home warranty companies:</span><br />
+					<span><a class="link" href="http://quote.ahs.com" target="_blank">
+						American Home Shield</a> 
+					<sup><a class="disclaimer" href="#external_link_liability">[1]</a></sup>
+					</span>
+					<br />
+					<span><a class="link" href="http://www.orhp.com" target="_blank">
+						Old Republic Home Protection</a> 
+					<sup><a class="disclaimer" href="#external_link_liability">[1]</a></sup>
+					</span>
+					<br />
+					<span><a class="link" href="http://choicehomewarranty.com" target="_blank">
+						Choice Home Warranty</a> 
+					<sup><a class="disclaimer" href="#external_link_liability">[1]</a></sup>
+					</span>
+					<br />
+					<span><a class="link" href="http://hscwarranty.com" target="_blank">
+						The Home Service Club</a> 
+						<sup><a class="disclaimer" href="#external_link_liability">[1]</a></sup>
+					</span>
+					<br />
+					<span><a class="link" href="http://libertyhomeguard.com" target="_blank">
+						Liberty Home Guard</a> 
+					<sup><a class="disclaimer" href="#external_link_liability">[1]</a></sup>
+					</span>
+					<br />
+					<span><a class="link" href="http://go.fahw.com" target="_blank">
+						First American Home Warranty</a> 
+					<sup><a class="disclaimer" href="#external_link_liability">[1]</a></sup>
+					</span>
+				</p>
+			</div>
+			<div>
+				<p>Looking for a home in California?<br />
+					<span>Contact 
+					<a class="link" href="http://buyselllahousehoward.com" target="_blank">
+						Howard Hsiao</a> 
+					<sup><a class="disclaimer" href="#external_link_liability">[1]</a></sup>
+					for more information.
+					</span>
+				</p>
+			</div>
+		</div>	
+		<div id="lv_sign">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/
+				Welcome_to_Las_Vegas_%289063525666%29.jpg/640px-Welcome_to_Las_Vegas
+				_%289063525666%29.jpg"/>
+		</div>
+	</section>
+	
+	<section id="contact">
+		<div id="about">
+			<span id="agent">Sherry Hsiao</span><br>
+			License #S.0078219<br>
+			<i class="material-icons">phone</i> (702) 287-8680<br>
+			<i class="material-icons">email</i> sherryhsiao88@gmail.com<br>
+			<i class="material-icons">place</i> Realty One Group,</span><br>
+			serving the<br>Greater Las Vegas Area
+		</div>
+		<div id="dm">
+			<div id="dm-form">
+				<div id="dm-header">
+					<span id="head">Your new home awaits just around the corner.</span>
+					<br />
+					<span>Contact me for more information and showings</span>
+				</div>
+				<form action="#contact" method="post">	
+					<div id="contactee">
+						<div class="contactee-info">
+							<label for="name">Name<span class="req">*<span></label><br />
+							<input type="text" id="name" name="name" required/>
+						</div>
+						
+						<div class="contactee-info">
+							<label for="email">Email<span class="req">*<span></label><br />
+							<input type="email" id="email" name="email" required/>
+						</div>
+						
+						<div class="contactee-info">
+							<label for="phone">Phone Number</label><br />
+							<input type="tel" id="phone" name="phone" 
+								   placeholder="Ex: 1234567890" pattern="[0-9]{10}"/>
+						</div>
+					</div>
+					
+					<div id="dm-msg">
+						<label for="msg">Leave a message!<span class="req">*<span></label><br />
+						<textarea id="msg" name="msg" class="NotoSerifTC" required></textarea>
+					</div>
+				
+					<input type="submit" id="submit" name="submit" value="Send my message"/>
+				</form>
+			</div>
+		</div>
+	</section>
+	
+	<section id="home">
+		<img id="w_bkgd" src="lv_panorama.jpg">
+		<div class="flex_container">
+			<span class="line"></span>
+			<span class="text">Welcome home</span>
+			<span class="line"></span>
+		</div>
+	</section>
+	
+	
+	<footer id="credits">
+		<p style="font-weight: bold;">&copy; 2020 Sherry Hsiao</p>
+		<p>
+			"<a href="https://commons.wikimedia.org/wiki/File:1_Las_vegas_strip.jpg">Las  	
+			Vegas Strip Bellagio Caesar's Palace</a>" by 
+			<a href="https://en.wikipedia.org/wiki/User:Chensiyuan">chensiyuan</a> 
+			is licensed under 
+			<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+			/ Cropped and filtered from original
+			<br>
+			"<a href="https://www.flickr.com/photos/medau/9063525666/">Welcome 
+			to Las Vegas</a>" by 
+			<a href="https://www.flickr.com/photos/medau/">Joao Carlos Medau</a> 
+			is licensed under 
+			<a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>
+			<br>
+			Quick stats provided by the 
+			<a href="https://en.wikipedia.org/wiki/Las_Vegas_Valley">Wikipedia's 
+			page on the Las Vegas Valley</a>. Stats reflect Las Vegas in addition
+			to its surrounding cities, all which are part of the Greater Las Vegas
+			area.
+		</p>
+		<p>
+			<span style="font-weight: bold;">Disclaimer of Liability:</span>
+			<br />
+			<span id="external_link_liability">1<span>
+			Although Sherry Hsiao (hereby referred to as Agent) provides external 
+			links for the benefit of the customer, Agent holds no responsibility 
+			for the accuracy or content of these sites, and it is the customer's
+			responsibility to abide by the terms and conditions of these websites.
+			<br />
+			<span id="website_liability">2<span>
+			The information and materials presented on this website are for general
+			information only. Agent strives to keep this page updated, but makes
+			no assurance that the information and materials present on this website
+			are accurate. Any actions the customer chooses to take after using 
+			this website is solely at the risk of the customer. Agent holds no
+			responsibility.
+		</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,297 @@
+/* Large screens */
+html {
+	height: 100%;
+	width: 100%;
+	scroll-behavior: smooth;	
+}
+
+body {
+	margin: 0;
+	background-color: #E4E7EB;
+	color: #FFFEFA;
+	font-family: 'Noto Serif TC', serif;
+}
+
+nav {
+	position: fixed;
+	top: 0px;
+	z-index: 1;
+	width: 100%;
+	background-color: #292421;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 20px 0px;
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	width: 125px;
+	text-align: center;
+}
+
+#nav_top {
+	display: inline;
+}
+
+nav img {
+	padding-top: 5px;
+	padding-left: 50px;
+	height: 50px;
+	width: auto;
+}
+
+#open_nav {
+	display: none;
+}
+
+#close_btn {
+	display: none;
+}
+
+nav a:link, nav a:visited {
+	color: #FFFEFA;
+	text-decoration: none;
+}
+
+nav a:hover {
+	padding-bottom: 15px;
+	border-bottom: 5px #C9A512 solid;
+	color: #C9A512;
+	text-decoration: none;
+}
+
+.flex_container {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: baseline;
+	width: 100%;
+}
+
+.line {
+	flex-grow: 2;
+	border: 3px #FFFEFA solid;
+	height: 0px;
+}
+
+.text {
+	flex-shrink: 0;
+	padding: 0px 25px;
+	text-align: center;
+	font-size: 48px;
+	font-family: 'Cinzel Decorative', cursive;
+	font-weight: bold;
+}
+
+#welcome {
+	margin-top: 55px;
+	height: calc(100vh - 55px);
+	width: 100%;
+}
+
+#lv_bkgd {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+#welcome .flex_container {
+	position: relative;
+	top: -75px;
+}
+
+#intro {
+	padding: 50px 100px 0px;
+	min-height: 700px;
+	background-color: #292421;
+}
+
+blockquote {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 50px;
+}
+
+#dbqt {
+	padding-right: 25px;
+	color: rgba(184, 184, 184, 0.5);
+	font-size: 80px;
+}
+
+#quote {
+	font-size: 22px;
+	font-family: 'Gruppo', cursive;
+}
+
+#quick_stats {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	height: 200px;
+}
+
+#quick_stats div {
+	width: 33%;
+	font-size: 18px;
+	text-align: center;
+}
+
+#search {
+	padding: 100px 25px 0px;
+	height: 700px;
+}
+
+#links {
+	display: flex;
+	flex-flow: row wrap;
+	padding-top: 65px;
+	padding-left: 5vw;
+	margin: auto;
+	min-height: 700px;
+	background-color: #292421;
+	font-size: 36px;
+	color: #B8B8B8;
+}
+
+.link:link, .link:visited {
+	color: #FFFEFA;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: #C9A512;
+	text-decoration: underline;
+}
+
+#links span {
+	font-size: 20px;
+}
+
+sup {
+	font-size: 10px;
+}
+
+.disclaimer:link, .disclaimer:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.disclaimer:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+#lv_sign {
+	margin: auto; 
+	padding-bottom: 100px;
+}
+
+#lv_sign img {
+	max-width: 100%;
+}
+
+#contact {
+	display: flex;
+	flex-flow: row wrap;
+	height: 615px;
+	color: black;
+	font-family: 'Gruppo', cursive;	
+}
+
+#about {
+	flex-grow: 2;
+	padding-top: 125px;
+	height: 475px;
+	font-size: 28px;
+	text-align: center;
+}
+
+#agent {
+	font-size: 48px;
+}
+
+#dm {
+	width: 400px;
+	float: right;
+	margin-right: 5vw;
+	padding: 75px 50px 0px;
+	height: 100%;
+	background-color: #292421;
+	color: #FFFEFA;
+}
+
+#dm-header {
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+
+#head {
+	font-size: 42px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+input {
+	width: 100%;
+	padding: 5px;
+}
+
+textarea {
+	width: 100%;
+	height: 125px;
+	padding: 5px;
+	resize: none;
+	margin-bottom: 5px;
+	word-wrap: break-word;
+}
+
+.req {
+	color: #C9A512;
+	font-weight: bold;
+}
+
+#submit {
+	width: 103%;
+	height: 50px;
+	background-color: #FFFEFA;
+	font-family: 'Gruppo', cursive;	
+	font-size: 22px;
+}
+
+#submit:hover {
+	border: 3px #292421 solid;
+	cursor: pointer;
+}
+
+#home {
+	height: 700px;
+	width: 100%;
+}
+
+#home .flex_container {
+	position: relative;
+	top: -95%;
+}
+
+#w_bkgd {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+#credits {
+	padding: 5px 50px;
+	color: black;
+	font-size: 9.5px;
+}
+
+#credits a:link, #credits a:visited, #credits a:hover {
+	color: black;
+}

@@ -1,0 +1,31 @@
+/* Medium screens */
+nav img {
+	display: none;
+}
+
+.text {
+	font-size: calc(11px + 3vw);
+}
+
+#intro {
+	padding: 25px 10px 0px;
+}
+
+#contact {
+	flex-flow: column nowrap;
+	height: auto;
+}
+
+#about {
+	padding: 60px 0px 25px;
+	height: auto;
+}
+
+#dm {
+	height: 550px;
+	margin: auto;
+}
+
+#credits {
+	padding: 5px 25px;
+}
